@@ -1,0 +1,103 @@
+body {
+    font-family: Times New Roman;
+    margin: 5px;
+    background-color:rgb(32, 33, 36);
+    color: white;
+    text-align: center;
+    
+  }
+  
+  .container{
+    background-color: rgb(20, 19, 19);
+  
+    width: 300px;
+    height: 200px;
+    text-align: center;
+    display: flex;
+    justify-content: flex-start; /* Adjust vertical alignment as needed */
+    min-height: 45vh;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    
+  }
+
+  #todo{
+    color: rgb(75, 0, 130);
+  }
+
+  ul #task{
+    color: rgb(75, 0, 130);
+    font-size: 50px;
+    margin-top: 0;
+  }
+
+
+
+  #addtask{
+    margin-bottom: 20px;
+    margin-top: auto;
+    color: rgb(75, 0, 130);
+  }
+
+  #napol{
+    height: 300px;
+    width: 400px;
+    margin-top: 20px;
+    
+  }
+
+  #quote{
+    color: rgb(224, 10, 10);
+    font-size: 18px;
+    
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: -10px;
+    
+  }
+  
+  li #list{
+    margin-bottom: 10px;
+    margin-top: 120px;
+  }
+  
+  form {
+    color: rgb(75, 0, 130);
+    font-size: 25px;
+  }
+  
+  input[type="submit"] {
+    background-color: rgb(26, 25, 25);
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    
+  }
+
+  #viewtasks{
+    font-size: 25px;
+  }
+
+  #secondadd{
+    color: rgb(75, 0, 130);
+    font-size: 40px;
+  }
+  
+  .addcontainer{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 80vh;
+
+  }
+
+  #copyright{
+    font-size: 15px;
+  }

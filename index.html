@@ -1,0 +1,32 @@
+{% extends "tasks/layout.html" %}
+{% load static %}
+
+{% block body %}
+<div class = "container">
+    <h1 id = "todo">To Do</h1>
+    
+    <ul>
+        {% for task in tasks %}
+        <li id = "list">
+            {{ task.1 }}
+            <form action="{% url 'index' %}" method="post" style="display: inline;">
+                {% csrf_token %}
+                <input type="hidden" name="task_id" value="{{ task.0 }}">
+                <input type="submit" value="Remove">
+            </form>
+        </li>
+        {% empty %}
+        <li>No Tasks</li>
+        {% endfor %}
+    </ul>
+    
+    <div class = "addtask">
+    <a style="color: rgb(75, 0, 130); "href="{% url 'add' %}">Add a New Task</a>
+    </div>
+</div>
+    
+    <img id = "napol" src="{% static 'napoleonhorse.jpg' %}" alt="napoleon">
+    <h1 id ="quote"> "Great ambition is the passion of a great character." - Napoleon Bonaparte</h1>
+    
+    <h1 id ="copyright"> © Yang Lu: Thanks for checking out my website (: </h1>
+{% endblock %}
