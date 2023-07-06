@@ -13,4 +13,4 @@ Taskinator can create, track, and delete any task.
 
 -Also has priority functionality to lets users prioritize which tasks to complete first 
 
--Used html, css, python, and Django. 
+-Used HTML, CSS, Python, and Django. 
