@@ -1,5 +1,5 @@
 # taskinator
-Taskinator can create, track, and delete any task. It was made using html, css, python, and Django. 
+Taskinator can create, track, and delete any task. 
 
 -Add the tasks you need to do and when your finished, you can remove them. 
 
@@ -12,3 +12,5 @@ Taskinator can create, track, and delete any task. It was made using html, css, 
 -Integrates database functionality to store and retrieve tasks using Django’s ORM
 
 -Also has priority functionality to lets users prioritize which tasks to complete first 
+
+-Used html, css, python, and Django. 
